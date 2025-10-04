@@ -1,4 +1,3 @@
-import Navbar from "@/components/home/header/Navbar";
 import HeroSection from "@/components/home/HeroSection";
 import TopArticles from "@/components/home/TopArticles";
 import BlogFooter from "@/components/home/BlogFooter";
@@ -10,7 +9,6 @@ import { AllArticlesPageSkeleton } from "../articles/page";
 export default function Home() {
   return (
     <main>
-      <Navbar />
       <HeroSection />
       <section className="relative py-16 md:py-24">
         <div className="container mx-auto px-4">
